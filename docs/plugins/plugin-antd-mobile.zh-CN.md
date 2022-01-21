@@ -26,7 +26,7 @@ translateHelp: true
 
 开启 hd 模式，会使用 antd-mobile/2x 中的组件。（该配置对仅使用 antd-mobile@2 模式下无效，操作方式详见下方 FAQ）
 
-- Type: `object`
+- Type: `boolean`
 - Default: `null`
 
 ## FAQ
