@@ -1,72 +1,55 @@
-English | [简体中文](./README_zh-CN.md)
-
 # umi
 
-[![NPM version](https://img.shields.io/npm/v/umi.svg?style=flat)](https://npmjs.org/package/umi)
-[![Build Status](https://img.shields.io/travis/umijs/umi.svg?style=flat)](https://travis-ci.org/umijs/umi)
-[![NPM downloads](http://img.shields.io/npm/dm/umi.svg?style=flat)](https://npmjs.org/package/umi)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+<p>
+  <a href="https://www.npmjs.com/package/umi"><img src="https://badgen.net/npm/v/umi" alt="Version" /></a>
+  <a href="https://www.npmjs.com/package/umi"><img src="https://badgen.net/npm/dm/umi" alt="Downloads" /></a>
+  <a href="https://github.com/umijs/umi"><img src="https://github.com/umijs/umi/workflows/CI/badge.svg?branch=master&event=push" alt="build status" /></a>
+  <a href="https://www.npmjs.com/package/umi"><img src="https://badgen.net/npm/license/umi" alt="License" /></a>
+</p>
 
-🌋 Pluggable enterprise-level react application framework.
+A framework in react community ✨
 
 > Please consider following this project's author, [sorrycc](https://github.com/sorrycc), and consider starring the project to show your ❤️ and support.
 
----
+### [🚀 Read the launch post →](https://umijs.org/blog/umi-4-rc)
 
-## Features
+### [📚 Learn Umi →](https://umijs.org/)
 
-* 📦 **Out of box**, with built-in support for react, react-router, etc.
-* 🏈 **Next.js like and [full featured](https://umijs.org/guide/router.html) routing conventions**, which also supports configured routing
-* 🎉 **Complete plugin system**, covering every lifecycle from source code to production
-* 🚀 **High performance**, with support for PWA, route-level code splitting, etc. via plugins
-* 💈 **Support for static export**, adapt to various environments, such as console app, mobile app, [egg](https://github.com/eggjs/egg), Alipay wallet, etc
-* 🚄 **Fast dev startup**, support enable [dll](https://umijs.org/plugin/umi-plugin-react.html#dll) and [hard-source-webpack-plugin](https://umijs.org/plugin/umi-plugin-react.html#hardSource) with config
-* 🐠 **Compatible with IE9**, based on [umi-plugin-polyfills](https://umijs.org/plugin/umi-plugin-react.html#polyfills)
-* 🍁 **Support TypeScript**, including d.ts definition and `umi test`
-* 🌴 **Deep integration with [dva](https://dvajs.com/)**, support duck directory, automatic loading of model, code splitting, etc
+## Contribution
 
-## Getting Started
+See [Contributing Guide](https://umijs.org/docs/introduce/contributing).
 
-```bash
-# Install deps
-$ yarn global add umi # OR npm install -g umi
+### Core Maintainers
 
-# Create application
-$ mkdir myapp && cd myapp
+Core Maintainers are community members who have contributed significantly to the project through addressing issues, fixing bugs, and implementing enhancements/features.
 
-# Create page
-$ umi generate page index
+* [sorrycc](https://github.com/sorrycc)
+* [xiaohuoni](https://github.com/xiaohuoni)
 
-# Start dev server
-$ umi dev
+### Maintainers
 
-# Build and deploy
-$ umi build
-```
+Maintainers are community members who have had 10 or more PRs merged in umi or have spent a lot of time contributing to the umi community or addressing issues.
 
-[Getting started with a 10 minutes video](https://youtu.be/vkAUGUlYm24)
+* [PeachScript](https://github.com/PeachScript)
+* [YdreamW](https://github.com/YdreamW)
+* [yuaanlin](https://github.com/yuaanlin)
+* [fz6m](https://github.com/fz6m)
+* [stormslowly](https://github.com/stormslowly)
+* [xierenyuan](https://github.com/xierenyuan)
+* [siyi98](https://github.com/siyi98)
+* [txp1035](https://github.com/txp1035)
+* [zenotsai](https://github.com/zenotsai)
 
-## Examples
+### Contributors
 
-* [Ant Design Pro](https://github.com/ant-design/ant-design-pro)
-* [Antd Admin](https://github.com/zuiidea/antd-admin)
+Contributors are community members who have had 1 or more PRs merged in umi. If you are a contributor, you can contact me [[sorrycc](https://github.com/sorrycc)] to join the Contributor Group.
+
+<a href="https://github.com/umijs/umi/graphs/contributors"><img src="https://opencollective.com/umi/contributors.svg?width=890&button=false" /></a>
 
 ## Community
 
-### Telegram
+* [交流和反馈群](https://fb.umijs.org/)
 
-[https://t.me/joinchat/G0DdHw-44FO7Izt4K1lLFQ](https://t.me/joinchat/G0DdHw-44FO7Izt4K1lLFQ)
+## LICENSE
 
-### 钉钉群
-
-<img src="https://gw.alipayobjects.com/zos/rmsportal/jPXcQOlGLnylGMfrKdBz.jpg" width="60" />
-
-### 微信群
-
-<img src="https://img03.sogoucdn.com/app/a/100520146/3544b6bbdd976ef3caa4f44cd9de38e5" width="60" />
-
-扫码加 `UMI_HELPER`，回复 `umi` 自动加群。
-
-## License
-
-[MIT](https://github.com/umijs/umi/blob/master/LICENSE)
+[MIT](./LICENSE)
